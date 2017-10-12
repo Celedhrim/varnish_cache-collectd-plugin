@@ -21,7 +21,7 @@ Add the following to your collectd config **or** use the included varnish_cache.
 <Plugin python>
   ModulePath "/usr/share/collectd/python"
   LogTraces true
-  Interactive true
+  Interactive false
   Import "varnish_cache"
 	Import "getsigchld"
 
